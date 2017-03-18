@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyMobileSafe</string>
+    <string name="sample_device_admin_description">开启设备管理员</string>
+    <string name="sample_device_admin">设备管理员</string>
+</resources>

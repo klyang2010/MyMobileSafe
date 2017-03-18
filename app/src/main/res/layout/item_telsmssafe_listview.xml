@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bt_selector"
+    >
+
+    <TextView
+        android:id="@+id/tv_telsmssafe_listview_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="110"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_telsmssafe_listview_item_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_telsmssafe_listview_item_number"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:textColor="#000000"
+        android:text="拦截模式"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_telsmssafe_listview_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:src="@drawable/iv_delete_selector" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_devider" />
+</RelativeLayout>

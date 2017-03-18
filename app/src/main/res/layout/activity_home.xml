@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/tv_title"
+        android:text="这是主界面" />
+
+    <com.mymobilesafe.view.MyTextView
+        android:id="@+id/my_tv_home_marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="这是我的第一个手机卫士，我是用Android studio写的，希望大家多多支持哦，谢谢" />
+
+
+    <GridView
+        android:id="@+id/gv_home_menus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/gv_list_selector"
+        android:numColumns="3"></GridView>
+
+
+</LinearLayout>
